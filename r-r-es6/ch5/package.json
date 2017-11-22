@@ -37,6 +37,7 @@
     "react-dom": "^16.1.1",
     "react-router": "^3.2.0",
     "react-router-dom": "^4.2.2",
+    "redux-thunk": "^2.2.0",
     "style-loader": "0.19.0",
     "sw-precache-webpack-plugin": "0.11.4",
     "url-loader": "0.6.2",
@@ -52,6 +53,7 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "react-redux": "^5.0.6",
     "redux-immutable-state-invariant": "^2.1.0",
     "webpack": "^3.8.1",
