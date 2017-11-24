@@ -1,9 +1,9 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 import * as courseActions from '../../actions/courseActions';
-import CourseForm from './CourseForm'
+import CourseForm from './CourseForm';
 
 class ManageCoursePage extends React.Component {
     constructor(props, context) {
@@ -22,7 +22,7 @@ class ManageCoursePage extends React.Component {
         const field = event.target.name;
         let course = this.state.course;
         course[field] = event.target.value;
-        return this.setState({course: course})
+        return this.setState({course: course});
     }
 
     saveCourse(event) {
@@ -57,7 +57,7 @@ ManageCoursePage.contextTypes = {
 
 
 function getCourseById(courses, id) {
-    const course = courses.filter(course => course.id == id)
+    const course = courses.filter(course => course.id == id);
     if (course) return course[0];
     return null;
 }

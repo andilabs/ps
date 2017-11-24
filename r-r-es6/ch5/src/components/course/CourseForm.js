@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 import TextInput from '../common/TextInput';
 import SelectInput from '../common/SelectInput';
@@ -47,7 +47,7 @@ const CourseForm = ({course, allAuthors, onSave, onChange, loading, errors}) => 
                 onClick={onSave}/>
         </form>
     );
-}
+};
 
 
 CourseForm.PropTypes = {
